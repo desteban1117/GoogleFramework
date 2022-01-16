@@ -1,7 +1,7 @@
 # MasGlobalFramework
 
 Este es un pequeño framework the Automatización en el que se automatizan los siguientes scenarios:
-
+```
 Scenario: User can search with "Google Search"
     Given I am on Google homepage
     When I type "The name of the wind" into the search field
@@ -20,7 +20,7 @@ Scenario: User can search with "Google Search"
     And The first result is "El nombre del viento - Wikipedia, la enciclopedia libre"
     When I click on the first result link
     Then I go to the Wikipedia "El nombre del viento" page
-
+```
 ## Prerequisitos
 Para correr este framework de forma local se debe tener instalado los siguiente programas:
 - Java >= 8
