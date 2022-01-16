@@ -1,6 +1,6 @@
 # MasGlobalFramework
 
-Este es un pequeño framework the Automatización en el que se automatizan los siguientes scenarios:
+Este es un pequeño framework the Automatización en el que se automatizan los siguientes escenarios:
 ```
 Scenario: User can search with "Google Search"
     Given I am on Google homepage
