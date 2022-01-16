@@ -1,4 +1,4 @@
-# MasGlobalFramework
+# GoogleFramework
 
 Este es un pequeño framework the Automatización en el que se automatizan los siguientes escenarios:
 ```
@@ -31,7 +31,7 @@ Una ves instalados Java y Maven con todas sus variables de entorno, pasamos a cl
 
 `git clone https://github.com/desteban1117/MasGlobalFramework.git`
 
-entramos a la carpeta `MasGlobalFramework` y utilizamos el siguiente comando para correr los dos scenarios descritos previamente
+entramos a la carpeta `GoogleFramework` y utilizamos el siguiente comando para correr los dos scenarios descritos previamente
 `mvn clean test`
 
 Por default el framework corre usando Google Chrome. Actualmente el framework solo soporta dos browsers, firefox y crhome.
