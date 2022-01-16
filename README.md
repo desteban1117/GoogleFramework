@@ -29,7 +29,7 @@ Para correr este framework de forma local se debe tener instalado los siguiente 
 ## Corriendo el framework
 Una ves instalados Java y Maven con todas sus variables de entorno, pasamos a clonar el repositorio con el comando:
 
-`git clone https://github.com/desteban1117/MasGlobalFramework.git`
+`git clone https://github.com/desteban1117/GoogleFramework.git`
 
 entramos a la carpeta `GoogleFramework` y utilizamos el siguiente comando para correr los dos scenarios descritos previamente
 `mvn clean test`
