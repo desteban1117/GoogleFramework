@@ -14,7 +14,13 @@ public class Driver {
     public static WebDriver getDriver() {
         if (driver == null) {
             String option = (System.getProperty("BROWSER") == null) ? "chrome" : System.getProperty("BROWSER");
-            driver = Browsers.getBrowser(option);
+
+            if (option.equals("firefox")) {
+                driver = Browsers.getBrowser(Browser.FIREFOX);
+            }
+            else {
+                driver = Browsers.getBrowser(Browser.CHROME);
+            }
         }
         return driver;
     }
