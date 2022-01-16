@@ -36,6 +36,7 @@ entramos a la carpeta `GoogleFramework` y utilizamos el siguiente comando para c
 
 Por default el framework corre usando Google Chrome. Actualmente el framework solo soporta dos browsers, firefox y crhome.
 Si se desea correr en firefox simplemente usamos el siguiente comando
+
 `mvn clean test -DBROWSER=firefox`
 
 
